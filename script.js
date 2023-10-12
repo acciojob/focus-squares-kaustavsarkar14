@@ -12,7 +12,7 @@ squares.forEach((el,i)=>{
 	el.addEventListener('mouseleave',e=>{
 		squares.forEach(el=>{
 			if(el!=e.target){
-				el.style.backgroundColor = "#E6E6FA"
+				el.style.backgroundColor = "rgb(230, 230, 250)"
 			}
 		})
 	})
