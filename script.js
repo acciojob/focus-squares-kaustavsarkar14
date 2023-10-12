@@ -5,14 +5,14 @@ squares.forEach((el,i)=>{
 	el.addEventListener('mouseover',e=>{
 		squares.forEach(el=>{
 			if(el!=e.target){
-				el.style.backgroundColor = "#6F4E37"
+				el.style.backgroundColor = "rgb(230, 230, 250)"
 			}
 		})
 	})
 	el.addEventListener('mouseleave',e=>{
 		squares.forEach(el=>{
 			if(el!=e.target){
-				el.style.backgroundColor = "rgb(230, 230, 250)"
+				el.style.backgroundColor = "rgb(111, 78, 55)"
 			}
 		})
 	})
